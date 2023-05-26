@@ -1,0 +1,246 @@
+body {
+  background-image: url('bg.jpg');
+  background-repeat: no-repeat;
+  background-size: 1540px 1000px ;
+  color: #000000;
+  font-family: monospace;
+  font-family: 'Raleway', sans-serif;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+}
+
+p {
+  color: #8097A6;
+}
+
+.attribution {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  font-size: 0.8rem;
+  background-color: #8097A6;
+  padding: 10px;
+  border-radius: 5px;
+  color: #1D2326;
+  box-shadow: 1px 2px 5px 1px rgba(255,255,255, 0.2);
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  opacity: 0.8;
+}
+
+.content {
+  width: 65%;
+  padding-left: 30px;
+  /* display: inline; */
+  padding-right: 20px;
+}
+
+.content p {
+  max-width: 80%;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-left: 1px dotted #BFA38A;
+  height: 85vh;
+  text-align: right;
+}
+
+button {
+  width: 200px;
+  max-width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 35px;
+  border: 1px solid #BFA38A;
+  background: transparent;
+  color: #BFA38A;
+  border-radius: 5px;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: rgba(255,255,255,0.1)
+}
+.sidebar2{
+    display: inline-block;
+    width: 70%;
+    /* border: 2px solid red; */
+    height: 10%;
+    position: absolute;
+    top: 90%;
+    left: 405px;
+    /* left: 44px; */
+    margin: 30px;
+    padding: 0px;
+    margin: 10px;
+}
+.sidebar{
+    display: block;
+    width: 70%;
+    /* border: 2px solid red; */
+    height: 10%;
+    position: absolute;
+    top: 85%;
+    /* left: 44px; */
+    margin: 20px;
+    padding: 0px;
+    margin: 10px;
+}
+.sidebar2 button{
+    margin:10px;
+    display: inline-block;
+    color: wheat;
+    background-color: #3f2c2c;
+}
+.sidebar button{
+    margin:10px;
+    display: inline-block;
+    color: wheat;
+    background-color: #3f2c2c;
+}
+
+h2{
+    text-align: center;
+    font-size: 40px;
+    position: absolute;
+    top: 73%;
+    left: 45%;
+}
+
+canvas{
+    display: inline;
+    width: 23%;
+    height: 23%;
+}
+
+.output{
+    font-size: 20px;
+    /* border: 2px solid red; */
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    left: 65%;
+    width: 15%;
+}
+
+.input{
+    font-size: 42px;
+    display: inline-block;
+    /* border: 2px solid red; */
+    position: absolute;
+    top: 38px;
+    right: 55%;
+    width: 15%;
+}
+
+img{
+    position: absolute;
+    top: 144px;
+    left: 250px;
+    
+    /* border: 2px solid rgb(0, 0, 0);
+    border-radius: 5px; */
+    /* max-width: 380px; */
+    /* width: 100%; */
+}
+
+#blur-content,#colorOutput,#sharpOutput{
+    /* border: solid 2px black; */
+    position: absolute;
+    display: inline-block;
+    width: 420px;
+    height: 393px;
+    left: 55%;
+    top: 139px;
+}
+
+#blu{
+    /* border: solid 2px black; */
+    position: absolute;
+    display: inline-block;
+    width: 40%;
+    height: 50%;
+    left: 65%;
+    font-style: italic;
+    top: 72%;   
+}
+/* #colorOutput{
+    /* border: solid 2px black; 
+    position: absolute;
+    display: inline-block;
+    width: 40%;
+    height: 50%;
+    left: 55%;
+    top: 140px;
+} */
+#col{
+    /* border: solid 2px black; */
+    position: absolute;
+    display: inline-block;
+    width: 40%;
+    height: 50%;
+    left: 65%;
+    font-style: italic;
+    top: 72%;
+}
+/* #sharpOutput{
+    /* border: solid 2px black; 
+    position: absolute;
+    display: inline-block;
+    width: 40%;
+    height: 50%;
+    left: 53%;
+    top: 200px;
+} */
+#sha{
+    /* border: solid 2px black; */
+    position: absolute;
+    display: inline-block;
+    width: 40%;
+    height: 50%;
+    left: 65%;
+    font-style: italic;
+    top: 72%;
+}
+
+.inputoutput{
+    position: absolute;
+    top: 18%;
+    left: 1%;
+}
+
+#imageSrc{
+    position: absolute;
+    top: 18%;
+    left: 20%;
+
+}
+
+header{
+    font-size: 50px;
+    text-align: center;
+    /* margin-bottom: 100px; */
+}
+
+
+#logo{
+    width: 90px;
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    /* filter: invert(); */
+    height: 90px;
+}
