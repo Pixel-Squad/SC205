@@ -1,5 +1,4 @@
-# SC205
-Image Processing
+# SC205-Image Processing
 
 ## To learn more about our project and delve into the intricacies of image processing, don't forget to visit our website for additional resources and information: 
 https://sites.google.com/view/pixelsquad/home?authuser=0
